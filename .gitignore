@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment
+.env
+!.env.example
+*.env.local
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Ground truth — NEVER in this repository
+RAWBANK_SENTIENT_GROUND_TRUTH.csv
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Data (keep KB, exclude others)
+# data/RAWBANK_SENTIENT_KB.csv is tracked
+data/*.csv.bak
+data/RAWBANK_SENTIENT_GROUND_TRUTH.csv
